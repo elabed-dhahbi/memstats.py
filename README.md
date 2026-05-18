@@ -17,5 +17,11 @@ Bar column — inline [████████░░░░] proportional to use
 TOT row — bold, aggregates all nodes.
 Status line — countdown to next refresh, current sort column, node count.
 Interactive keys:
-keyactionq / EscquitSpaceforce immediate refreshscycle sort: Node → Total → Free → Used → Dirty → Anon → Slab → Hit → Missncycle units: auto → KB → MB → GBdprompt for new delay in secondshhide/show the key bar
+key       action
+q / Esc   quit
+Space     force immediate refresh
+s         cycle sort: Node → Total → Free → Used → Dirty → Anon → Slab → Hit → Miss
+n         cycle units: auto → KB → MB → GB
+d         prompt for new delay in seconds
+h         hide/show the key bar
 Δhit/Δmiss/Δfore show the delta since the previous sample, not the cumulative lifetime counter — so you see NUMA locality pressure as it happens rather than a monotonically growing number.
